@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Dark Mode Colors */
+  --bg-color: #b3b3b3;
+  --card-bg: #1e1e1e;
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  --border-color: #292929;
+  --accent-color: #bb86fc;
+  --error-color: #cf6679;
+  --success-color: #03dac6;
+  --warning-color: #f4b400;
+  --link-color: #8ab4f8;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+button {
+  background-color: var(--accent-color);
+  color: var(--text-primary);
+}
+
+button:hover {
+  background-color: #9a67ea; /* Slightly lighter shade for hover */
+}
